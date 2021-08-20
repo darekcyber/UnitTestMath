@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/darek/c_projects/testyJednostkowe/math/Calculations.Tests/Calculations.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/darek/c_projects/testyJednostkowe/math/Calculations.Tests/Calculations.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/darek/c_projects/testyJednostkowe/math/Calculations.Tests/Calculations.Tests.csproj",
+        "projectName": "Calculations.Tests",
+        "projectPath": "/home/darek/c_projects/testyJednostkowe/math/Calculations.Tests/Calculations.Tests.csproj",
+        "packagesPath": "/home/darek/.nuget/packages/",
+        "outputPath": "/home/darek/c_projects/testyJednostkowe/math/Calculations.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/darek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/darek/c_projects/testyJednostkowe/math/Calculations/Calculations.csproj": {
+                "projectPath": "/home/darek/c_projects/testyJednostkowe/math/Calculations/Calculations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.206/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/darek/c_projects/testyJednostkowe/math/Calculations/Calculations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/darek/c_projects/testyJednostkowe/math/Calculations/Calculations.csproj",
+        "projectName": "Calculations",
+        "projectPath": "/home/darek/c_projects/testyJednostkowe/math/Calculations/Calculations.csproj",
+        "packagesPath": "/home/darek/.nuget/packages/",
+        "outputPath": "/home/darek/c_projects/testyJednostkowe/math/Calculations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/darek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.206/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
